@@ -3,9 +3,9 @@
  */
 package myTest;
 
-import myFactoryExample.MyPersonFactory;
 import myPackage.Person;
-import myPackageImplementations.PersonImpl;
+import myPackageImplementations.MyPersonFactory;
+
 
 /**
  * @author cheile01

@@ -1,10 +1,9 @@
 /**
  * 
  */
-package myFactoryExample;
+package myPackageImplementations;
 
 import myPackage.Person;
-import myPackageImplementations.PersonImpl;
 
 /**
  * @author cheile01
@@ -12,7 +11,7 @@ import myPackageImplementations.PersonImpl;
  */
 public class MyPersonFactory {
 	public static Person getPerson(){
-		return new PersonImpl();
+		return PersonImpl.create();
 	}
 
 }

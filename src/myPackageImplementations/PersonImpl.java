@@ -27,7 +27,7 @@ public class PersonImpl implements Person {
 		return "hello";
 	}
 	
-	public static Person create(){
+	static Person create(){
 		return new PersonImpl();
 	}
 	
